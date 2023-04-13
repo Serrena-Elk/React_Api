@@ -1,0 +1,53 @@
+
+
+.dropdown {
+  float: right;
+
+}
+
+.user-icon {
+    font-size: 30px;
+}
+
+.username {
+  font-family: 'Roboto', sans-serif;
+  padding: 5px;
+}
+
+/*Actual button shape and size*/
+.dropbtn {
+  background-color: #ff0000;
+  color: #fff;
+  padding: 15px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #333;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
